@@ -32,6 +32,12 @@ const questions = [
         choices: ['Apache','Eclipse', 'IBM', 'MIT', 'Mozilla', "Zlib"]
       },
       {
+        type: 'checkbox',
+        message: 'What are the technologies used?',
+        name: 'technology',
+        choices: ['HTML','CSS', 'Javascript', 'Node.Js', "others"]
+      },
+      {
         type: 'input',
         message: 'Please enter contributors',
         name: 'contributor',
@@ -45,7 +51,6 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
     fs.writeFile(fileName, data, (err) => 
         err ? console.error("There is an error") : console.log("Saved successfully")
     );
@@ -59,7 +64,8 @@ function init() {
   .then((response) => {
     console.log(response);
     let generatedMarkdown = generateMarkdown(response);
-    writeToFile(`${response.title}.md`, generatedMarkdown);
+    let fileName = response.title.toLowerCase().split(" ").join("");
+    writeToFile(`${fileName}.md`, generatedMarkdown);
   })
 }
 

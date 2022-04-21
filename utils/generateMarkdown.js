@@ -48,22 +48,25 @@ function renderLicenseSection(license) {
 function generateMarkdown(response) {
   return `# Project Title: ${response.title}
 
-  ## Project Description:
+## Project Description:
   ${response.description}
 
-  ## Installation
+## Installation
   ${response.installation}
 
-  ## Usage
+## Usage
   ${response.usage}
   
-  ## License
+## License
   ${renderLicenseSection(response.license)}
 
-  ## Contributors
+## Technologies
+  ${response.technology}
+
+## Contributors
   ${response.contributor}
 
-  ## Tests
+## Tests
   ${response.tests}
 
 `;
