@@ -7,12 +7,12 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
       {
         type: 'input',
-        message: 'Please enter project title',
+        message: 'Please enter the project title',
         name: 'title',
       },
       {
         type: 'input',
-        message: 'Please enter description of the project',
+        message: 'Please enter project description',
         name: 'description',
       },
       {
@@ -22,14 +22,14 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'what are the usage?',
+        message: 'what are the usage for your project?',
         name: 'usage',
       },
       {
         type: 'list',
         message: 'Please select a license',
         name: 'license',
-        choices: ['MIT','xxx', 'xxxx']
+        choices: ['Apache','Eclipse', 'IBM', 'MIT', 'Mozilla', "Zlib"]
       },
       {
         type: 'input',
@@ -45,6 +45,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+
     fs.writeFile(fileName, data, (err) => 
         err ? console.error("There is an error") : console.log("Saved successfully")
     );
@@ -62,19 +63,5 @@ function init() {
   })
 }
 
-
 // Function call to initialize app
 init();
-
-// inquirer
-//   .prompt(questions)
-//   .then((response) => {
-//     console.log(response)
-//   })
-//   .catch((error) => {
-//     if (error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else went wrong
-//     }
-//   });
