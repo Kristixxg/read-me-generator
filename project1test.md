@@ -1,7 +1,7 @@
 # Project Title: project 1 test   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Project Description:
-  Hello World!
+  hello world!
 
 ## Table of Contents
 
@@ -39,10 +39,10 @@
   HTML,CSS,Javascript,Node.Js
 
 ## Tests
-  None
+  Nothing
 
 ## Questions
-  If you have any questions, don't hesitate to send an email to: kristy-guo@fake.com
+  If you have any questions, don't hesitate to send an email to: kristy@fake.com
 
   GitHub profile: https://github.com/kristixxg
 

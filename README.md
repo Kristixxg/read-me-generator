@@ -22,6 +22,9 @@ A high-quality README is important to have for almost all open source projects o
 
 ## Usage 
 
+### GIF Demonstration
+[![Video](./assets/README%20Generator.gif)](https://drive.google.com/file/d/145XnJ9M-zu0IkYhYHpiduXQA1dtBQyvk/view "Video")
+
 ### Questions will display on the command-line application as shown below:
 <img src="assets/Screen%20Shot%202022-04-21%20at%2012.41.02%20AM.png" width="500">
 
