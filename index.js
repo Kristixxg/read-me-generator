@@ -19,33 +19,38 @@ const questions = [
         type: 'input',
         message: 'What are the required installations?',
         name: 'installation',
+        default: 'None'
       },
       {
         type: 'input',
         message: 'what are the usage for your project?',
         name: 'usage',
+        default: 'Not applicable'
       },
       {
         type: 'list',
         message: 'Please select a license',
         name: 'license',
-        choices: ['Apache','Eclipse', 'IBM', 'MIT', 'Mozilla', "Zlib"]
+        choices: ['Apache','Eclipse', 'IBM', 'MIT', 'Mozilla', "Zlib"],
+        default: 'MIT',
       },
       {
         type: 'checkbox',
         message: 'What are the technologies used?',
         name: 'technology',
-        choices: ['HTML','CSS', 'Javascript', 'Node.Js', "others"]
+        choices: ['HTML','CSS', 'Javascript', 'Node.Js', "Others"],
       },
       {
         type: 'input',
         message: 'Please enter contributors',
         name: 'contributor',
+        default: 'None',
       },
       {
         type: 'input',
         message: 'What are the tests required?',
         name: 'tests',
+        default: 'None'
       },
       {
         type: 'input',

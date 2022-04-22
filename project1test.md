@@ -1,7 +1,7 @@
-# Project Title: Project ABC 123   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Project Title: project 1 test   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Project Description:
-  Test
+  Hello World!
 
 ## Table of Contents
 
@@ -14,7 +14,9 @@
 * [Questions](#questions)
 
 ## Installation
+```
   None
+```
 
 ## Usage
   Not applicable
@@ -23,7 +25,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   
-    Copyright <YEAR> <COPYRIGHT HOLDER>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -35,12 +36,13 @@
   None
 
 ## Technologies
-  HTML,CSS,Javascript,Node.Js,others
+  HTML,CSS,Javascript,Node.Js
 
 ## Tests
   None
 
 ## Questions
-  If you have any questions, don't hesitate to send an email to: fake@email.com
-  GitHub profile: https://github.com/Kristixxgkristixxg
+  If you have any questions, don't hesitate to send an email to: kristy-guo@fake.com
+
+  GitHub profile: https://github.com/kristixxg
 
